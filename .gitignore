@@ -10,3 +10,9 @@ web/node_modules/
 web/.next/
 web/.env.local
 web/next-env.d.ts
+
+# Cloudflare (OpenNext)
+web/.open-next/
+web/.wrangler/
+web/.dev.vars
+web/cloudflare-env.d.ts

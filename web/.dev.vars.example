@@ -1,0 +1,7 @@
+# Cloudflare Workersランタイム用のローカル変数(`npm run preview`で使用)。
+# ビルド時にインライン化されるNEXT_PUBLIC_*は.env.localの方に置く。
+# ここには実行時にサーバー側でしか使わない秘密情報だけを置く。
+#
+# 使い方: copy .dev.vars.example .dev.vars
+
+SUPABASE_SERVICE_ROLE_KEY=sb_secret_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
