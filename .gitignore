@@ -16,3 +16,5 @@ web/.open-next/
 web/.wrangler/
 web/.dev.vars
 web/cloudflare-env.d.ts
+
+.claude/scheduled_tasks.lock
